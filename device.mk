@@ -22,7 +22,7 @@
 #
 
 # Inherit from vendor
-$(call inherit-product-if-exists, vendor/zuk/z2_plus/z2_plus-vendor.mk)
+$(call inherit-product-if-exists, vendor/zuk/z2_row/z2_row-vendor.mk)
 
 # Inherit from msm8996-common
 $(call inherit-product, device/zuk/msm8996-common/msm8996.mk)
